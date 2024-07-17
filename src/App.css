@@ -1,0 +1,78 @@
+/* General Styles */
+:root {
+  --primary-color: #f90; /* Orange for highlights */
+  --background-color: #000; /* Black background */
+  --text-color: #fff; /* White text */
+  --secondary-text-color: #888; /* Grey text */
+  --max-width: 1280px;
+  --padding: 2rem;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+#root {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--padding);
+  text-align: center;
+}
+
+/* Header Styles */
+header {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
+/* Footer Styles */
+footer {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .intro {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,45 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 50px;
+  background-image: url('../assets/saif.jpg'); /* Update the path as needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.intro {
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.intro h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.intro h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.learn-more {
+  color: #f90;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+}

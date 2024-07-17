@@ -1,0 +1,26 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; /* Ensure the header is always on top */
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+    color: var(--primary-color);
+  }
+  
